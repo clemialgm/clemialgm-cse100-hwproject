@@ -193,3 +193,4 @@ double Graph::smallest_connecting_threshold(string const &start_label, string co
 bool Graph::tuple_compare(const tuple<std::string, std::string, double> &p, const tuple<std::string, std::string, double> &q) {
     return get<2>(p) < get<2>(q);
 }
+
